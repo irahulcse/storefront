@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Faces Canada</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="<%= htmlWebpackPlugin.options.API_URI %>" />
+    <link
+      rel="preconnect"
+      href="https://rsms.me/inter/inter.css"
+      rel="stylesheet"
+    />
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script>
+      if (window.Cypress) {
+        window.__REACT_DEVTOOLS_GLOBAL_HOOK__ =
+          window.parent.__REACT_DEVTOOLS_GLOBAL_HOOK__;
+      }
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=GTM-WCBQR99"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "GTM-WCBQR99");
+    </script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      charset="UTF-8"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+    />   
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="225718575921-ojicekbrhf72jmj1afr95645qfubeno9.apps.googleusercontent.com">
+         
+  </head>  
+
+
+  <body>
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0&appId=421541632073968"
+      nonce="rbTl3unQ"
+    ></script>
+    <div id="root"></div>
+    <div id="modal-root"></div>
+  </body>
+</html>
